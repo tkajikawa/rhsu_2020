@@ -1,0 +1,135 @@
+---
+title: '2020 RHSU Edu-Scholar Web Scraping '
+output:
+  html_document:
+    highlight: null
+    theme: null
+  pdf_document: default
+---
+
+```{r, fig.asp = .80, include=FALSE}
+#----------------------------------------------#
+#---------------2020 RHSU Scholar--------------#
+#----------------------------------------------#
+# Written by Trent Kajikawa
+rm(list=ls())
+
+# Here is some sample code for R...
+library(ggplot2)
+library(tidyverse)
+library(vtable)
+library(rvest)
+library(knitr)
+library(kableExtra)
+
+# - First, set your working directory
+setwd("C://Users//tkajikaw//rhsu_2020//")
+
+# Load cleaned data from prep.R
+rhsu_2020_df <- read.csv("data/final_data.txt",
+                         header = TRUE,
+                         colClasses = 'character',
+                         sep = '\t',
+                         fileEncoding="UTF-8")
+rhsu_2020_df <- rhsu_2020_df %>%
+    mutate_at(vars(snippet), function(x){gsub('[^ -~]', '', x)})
+
+# https://towardsdatascience.com/a-light-introduction-to-text-analysis-in-r-ea291a9865a8
+attach(rhsu_2020_df)
+library(tidytext)
+library(dplyr)
+library(tm)
+library(syuzhet)
+library(SnowballC)
+library(wordcloud)
+library(RColorBrewer)
+dfCorpus <- SimpleCorpus(VectorSource(rhsu_2020_df$snippet))
+
+# 1. Stripping any extra white space:
+dfCorpus <- tm_map(dfCorpus, stripWhitespace)
+# 2. Transforming everything to lowercase
+dfCorpus <- tm_map(dfCorpus, content_transformer(tolower))
+# 3. Removing numbers 
+dfCorpus <- tm_map(dfCorpus, removeNumbers)
+# 4. Removing punctuation
+dfCorpus <- tm_map(dfCorpus, removePunctuation)
+# 5. Removing stop words
+dfCorpus <- tm_map(dfCorpus, removeWords, stopwords("english"))
+# 6. Now let's stem our data
+# dfCorpus <- tm_map(dfCorpus, stemDocument)
+
+# Now convert to DTM
+DTM <- DocumentTermMatrix(dfCorpus)
+
+# Now leverage our DTM for data visualization
+sums <- as.data.frame(colSums(as.matrix(DTM)))
+sums <- rownames_to_column(sums) 
+colnames(sums) <- c("Term", "Freq")
+sums <- arrange(sums, desc(Freq))
+head <- sums[1:25,]
+```
+
+## Introduction
+
+I'm guilty of googling myself every once in a while. So when some free time emerged during the COVID-19 pandemic, I figured I could work on a project that I've been kicking around in my head combining some of my passions: Education, Python, R, data, and Google. For this exercise, I use [Rick Hess' Edu-Scholar Public Influence Rankings](https://blogs.edweek.org/edweek/rick_hess_straight_up/2020/01/the_2020_rhsu_edu-scholar_public_influence_rankings.html). A quick shout out to Professor Andrew Ho, #164 on the RHSU list, who introduced me to this dataset at HGSE when we were learning about principal component analysis (PCA). Rather than replicate the work in the course, I leverage my experience with web scraping and [Google's Custom Search API](https://developers.google.com/custom-search/v1/overview) to talk about the Internet presence of many leading education scholars. I am particularly interested in replicating aspects of a study conducted on Radiation Oncologists' Digital Identities by [Prabhu, Arpan V., et al](https://www.ncbi.nlm.nih.gov/pubmed/28939228). It would also be remiss of me not to mention that I hope this research will assist me in identifying faculty members I could potentially work... I'll also plug my Github (see above) for the Python and R code. And if you're interested, check out the various links for more detailed information about the RHSU rankings and the Google Custom Search API
+
+### Methodology
+I'll try to make the methodology brief, so check out the Repo and slide in my DMs if questions arise? #COVID19. But in essence, I use a couple of Python scripts to request the **top ten** links from Google using the 200 RHSU scholars and their affiliation -- e.g. Carol Dweck+Stanford. After getting 2000 total observations back, I merge Rick Hess' original table with the data from Google and analyze/write this up using R.
+
+### Popular Websites
+The most popular websites, unsurprisingly, are a mix of social media, academic/research, and university-affiliated sites. These 200 folks were rated as having the most public influence -- they should have their presentations on youtube for general consumption! I'm guilty of binging a couple of research talks during social isolation. Anyways, many academics on the RHSU list also appear to be active on Wikipedia, Twitter, and Linkedin. A quick digression, Google Scholar does not have an API. Otherwise, I'd immediately pipe in the authors and try to mine some of the research articles they've published.
+
+```{r, echo=FALSE, fig.align='center', fig.asp = .75, message=FALSE,results = 'asis', warnings = FALSE}
+popular_websites <- rhsu_2020_df %>% group_by(displayLink) %>% tally()
+colnames(popular_websites) <- c("displayLink", "count")
+popular_websites <- arrange(popular_websites, desc(count))[1:20,]
+
+ggplot(popular_websites, aes(y=count,x=reorder(displayLink, count))) +
+  geom_bar(stat="identity", color="black", fill="white") +
+  coord_flip() +
+  ggtitle("Popular Websites")+
+  labs(y="Count", x = "displayLink")
+```
+
+### Frequent "Snippet" Words
+Seen below in Table 1, I present the top 25 words that come up when searching for these 200 scholars. To do this, I cleaned the "snippet" data that Google returns with each link. I interpret this data as the blurb that Google returns below each blue link. After removing whitespace, numbers, punctuation, and [stop words](https://cran.r-project.org/web/packages/stopwords/stopwords.pdf), I generate a simple summation table to get an overall sense of the digital footprint of these education scholars. 
+
+Unsurprisingly, these scholars have an Internet presence that largely touches on subjects relating to the words "education", "professor," "research," and "policy." But the more unexpected terms that emerge are "economics" at seven and "american" at 25. Don't get me wrong, these scholars largely focus on American education and economists of education are well represented on this distinguished list: Sue Dynarski, Eric Bettinger, Bridget Terry Long, David Deming, Judith Scott-Clayton, and many others. But it was somewhat surprising that "psychology" comes in at 49, "urban" at 67, "diversity" at 148, "race" at 209, and "inclusion" at 887 (omitting, "including," "include," "included"). There are clear limitations and assumptions in using the **snippet** data, but when folks are googling leading education scholars, they are more likely to come across explicit references to economics and policy rather than diversity, equity and inclusion - not to say these themes are mutually exclusive!
+
+```{r, echo=FALSE, fig.align='center', fig.asp = .75, message=FALSE, results = 'asis', warnings = FALSE}
+# Order data by popularity
+ggplot(head, aes(y=Freq,x=reorder(Term, Freq))) +
+  geom_bar(stat="identity", color="black", fill="white") +
+  coord_flip() +
+  ggtitle("Frequent Snippet Words")+
+  labs(y="Count", x = "Term")
+```
+
+### Sentiment Analysis of Snippets
+Now that I've done some of the descriptive statistics of the web scraping, let's try out some sentiment analysis. I use the [syuzhet](https://cran.r-project.org/web/packages/syuzhet/syuzhet.pdf) package on CRAN. Seen below, the majority of snippets read with a trusting and anticipatory tone. Approximately 58% of the snippet content implies trust, whereas anger comprises 2% of the snippet prose--according to the NRC sentiment dictionary in the syuzhet R package. Interestingly, there is little joy in the snippets of the top ten links (6%) and anticipation rounds out the second most popular emotion at 25%.
+
+Similar to our findings above, the overall connotation of snippets is positive: 92% compared to 8% negative. Check out the figures below for the data visualization, because why not. Moving forward, I've love to dig into the weeds of the syuzhet package. One professor, in particular, has always emphasized the importance of understanding how the sausage is made. For example, what **exactly** does "anticipation" mean in the NRC dictionary? Anyways, feel free to take advantage of the code and dataset that's been posted to my Github!
+
+
+```{r, echo=FALSE, fig.align='center', fig.asp = .50, message=FALSE, results = 'asis', warnings = FALSE}
+# Now let's pipe in the snippet data for sentiment analysis
+library(syuzhet)
+rhsu_2020_df$snippet_sentiment<-get_nrc_sentiment(rhsu_2020_df$snippet)
+
+# Data visualization
+barplot(
+  sort(colSums(prop.table(rhsu_2020_df$snippet_sentiment[, 1:8]))), 
+  horiz = TRUE, 
+  cex.names = 0.7, 
+  las = 1, 
+  main = "Emotions in Snippet Text", xlab="Percentage"
+)
+
+barplot(
+  sort(colSums(prop.table(rhsu_2020_df$snippet_sentiment[, 9:10]))), 
+  horiz = TRUE, 
+  cex.names = 0.7, 
+  las = 1, 
+  main = "Connotation in Snippet Text", xlab="Percentage"
+)
+```

@@ -1,0 +1,201 @@
+Ranking	Name	Affiliation	Google Scholar	Book Points	Highest Amazon	Syllabus Points	Newspaper Mentions	Education Press	Web Mentions	Congressional Record	Twitter	Total	Twitter Handle
+1	Carol Dweck	Stanford	50	4	20	10	27	27	25	0	0	163	
+2	Linda Darling-Hammond	Stanford	50	20	16	9	16	20	25	0	6.5	162.5	LDH_ed
+3	Howard Gardner	Harvard	50	20	16.4	10	10	7	25	0	5.6	144	DrHowardGardner
+4	Jo Boaler	Stanford	45	20	19.6	10	4	12	25	0	7.3	142.9	joboaler
+5	Raj Chetty	Harvard	49	0.5	0	2.3	30	28	25	5	0	139.8	
+6	Diane Ravitch	NYU	48	20	14.9	10	5	10	23.9	0	7.8	139.6	DianeRavitch
+7	Pedro Noguera	UCLA	43	10	9.8	2.6	30	12	22	0	6.4	135.8	PedroANoguera
+8	Gloria Ladson-Billings	U. Wisconsin-Madison	50	19	15.4	10	4	18	12.9	0	5.1	134.4	gjladson
+9	Sara Goldrick-Rab	Temple	30	3	12.6	0.3	30	24	25	0	7.8	132.7	saragoldrickrab
+10	Angela Duckworth	U. Penn	50	2	19.9	3.1	21	5	25	0	6.4	132.4	angeladuckw
+11	Richard Rothstein	UC Berkeley	40	13	19.9	3.9	24	1	25	0	0	126.8	
+12	Carol A. Tomlinson	U. Virginia	50	20	18.2	10	0	14	4.8	0	3.4	120.4	cat3y
+13	Eric (Rick) A. Hanushek	Stanford	50	13.5	0	5.2	10	14	25	0	1	118.7	EricHanushek
+14	Daniel Willingham	U. Virginia	50	11	17.3	8.6	7	8	8.8	0	6.9	117.6	DTWillingham
+15	Gary Orfield	UCLA	50	20	0	1.7	17	0	17.2	0	4.2	110	orfieldtweet
+16	Sam Wineburg	Stanford	48	6	17.6	10	9	5	7.8	0	5.9	109.3	samwineburg
+17	Andy Hargreaves	Boston College	50	18.5	9.3	4.4	0	4	16	0	6.2	108.3	HargreavesBC
+18 (tie)	Robert E. Slavin	Johns Hopkins	50	20	10	10	3	1	8.4	0	4.3	106.7	RobertSlavin
+18 (tie)	David L. Kirp	UC Berkeley	34	19.5	14.1	1.9	19	2	12.5	0	3.7	106.7	DavidKirp
+20	Yong Zhao	U. Kansas	50	20	12.3	1.8	0	5	8.4	0	5.8	103.4	YongZhaoEd
+21	Claude Steele	Stanford	50	2	18.7	9.2	9	2	11.7	0	0.1	102.8	cmasonsteele
+22	Shaun R. Harper	USC	50	8	7.5	4	5	12	10.9	0	5.2	102.7	DrShaunHarper
+23	Larry Cuban	Stanford	50	20	12.5	4.7	0	6	4.7	0	4	102	CubanLarry
+24	Marc Lamont Hill	Temple	16	9	10.7	0.5	30	1	25	0	9	101.2	marclamonthill
+25	Rich Milner	Vanderbilt	48	8	15.8	1.4	3	14	4.2	0	5.7	100.1	MilnerHRich
+26	Josh Angrist	MIT	50	1	17.9	1.6	1	0	23.8	0	4.6	99.9	metrics52
+27	Nel Noddings	Stanford	50	20	7.4	10	1	0	8.8	0	0	97.2	
+28	William (Bill) G. Tierney	USC	50	20	0	0.9	13	2	9.3	0	1.8	96.9	TierneyBill
+29	David C. Berliner	Arizona State	50	11.5	9.3	4.3	2	6	12.1	0	0.9	96.2	DavidCBerliner
+30	Bruce D. Baker	Rutgers	36	6	0	0.4	26	4	16.5	0	6.9	95.8	SchlFinance101
+31	Rob Reich	Stanford	24	6	16.9	0.4	23	1	18.3	0	6	95.7	robreich
+32	Terry M. Moe	Stanford	50	15	9.3	8.8	3	2	7.2	0	0	95.3	
+33	Paul E. Peterson	Harvard	50	20	0	6.2	4	2	12.1	0	0.5	94.8	Paul_E_Peterson
+34	Robert Kelchen	Seton Hall	14	2	0	0	30	30	11.9	0	6.2	94.1	rkelchen
+35	Robert (Bob) C. Pianta	U. Virginia	50	9.5	4.1	6.5	3	0	20.6	0	0.1	93.9	bobpianta
+36	Richard (Dick) Elmore	Harvard	50	17.5	12.4	2.9	0	8	2.8	0	0.1	93.7	RichardElmore3
+37	Henry (Hank) Levin	Columbia (TC)	50	20	10.1	2.6	1	0	4.3	5	0	93	
+38	Catherine Snow	Harvard	50	20	0	9.4	5	0	8.5	0	0	92.9	
+39	Richard (Dick) J. Murnane	Harvard	50	6.5	15	3.3	0	2	9.8	5	0	91.6	
+40	Caroline M. Hoxby	Stanford	50	0	0	2.7	16	9	12.8	0	0	90.5	
+41	Greg J. Duncan	UC Irvine	50	7	6	3.3	5	0	16.5	0	0	87.8	
+42	Sarah E. Turner	U. Virginia	36	1.5	0	0.2	9	13	25	0	1.1	85.8	turnersarahe
+43	Jeannie Oakes	UCLA	50	10.5	9.1	8.6	0	2	4.6	0	0.8	85.6	Jeannie_Oakes
+44	Gene V. Glass	Arizona State	50	14.5	1.5	4.4	0	2	10.5	0	2.2	85.1	GeneVGlass
+45	Bruce Fuller	UC Berkeley	50	14.5	0	1	9	2	7.9	0	0	84.4	
+46	Jack P. Shonkoff	Harvard	43	1.5	0	6.6	7	1	24.2	0	0	83.3	
+47	Sean F. Reardon	Stanford	50	0.5	0	0.3	15	8	7.8	0	0.6	82.1	seanfreardon
+48 (tie)	Patrick J. Wolf	U. Arkansas	38	1.5	0	0.6	9	2	25	0	5.6	81.7	P_Diddy_Wolf
+48 (tie)	Nell K. Duke	U. Michigan	35	12	14.5	2.1	2	2	7.9	0	6.2	81.7	nellkduke
+50	W. Steven Barnett	Rutgers	50	6	0	1.7	9	2	12.6	0	0.1	81.4	wstevenbarnett
+51	Marybeth Gasman	Rutgers	40	20	0	0.8	3	3	7	0	7.2	81	marybethgasman
+52	William (Bill) F. Tate	Washington U.	28	3.5	0	0.4	30	6	7.8	0	4.7	80.4	WFTate4
+53	Tyrone Howard	UCLA	33	7.5	11.3	1.7	11	2	8.4	0	5.4	80.3	TyroneCHoward
+54	Mike Rose	UCLA	28	13	12.5	10	0	0	16.6	0	0	80.1	
+55	Tressie McMillan Cottom	VCU	8	7	19.4	0	14	16	7	0	8.3	79.8	tressiemcphd
+56	Richard M. Ingersoll	U. Penn	50	2	0	0.7	12	8	6.8	0	0	79.5	
+57	Marcelo Suarez-Orozco	UCLA	44	14	4.5	1	2	0	10.6	0	3.3	79.4	uclagseis_dean
+58	Martin Carnoy	Stanford	50	20	0	2.7	0	0	6.6	0	0	79.3	
+59	Michael Kirst	Stanford	50	13	0	1.5	6	4	2.5	0	2.1	79.1	Michael_Kirst
+60	John Rogers	UCLA	18	0	0	0.5	28	6	25	0	0	77.5	
+61	Richard Arum	UC Irvine	31	11.5	8	4.1	5	8	9.2	0	0	76.9	
+62	Jonathan Plucker	Johns Hopkins	50	6.5	0	2	5	2	4.6	0	6.1	76.2	JonathanPlucker
+63	Jonathan Zimmerman	U. Penn	12	13	0	1.8	30	9	9.5	0	0	75.3	
+64	Daniel Koretz	Harvard	41	8	10.8	2.6	8	3	1.7	0	0.1	75.2	DanKoretz
+65	Christopher Lubienski	Indiana	43	3.5	6.2	0.3	2	0	13.7	0	6	74.7	CLub_edu
+66	Joseph Murphy	Vanderbilt	50	20	0	0.8	0	0	3.5	0	0	74.3	
+67	Patricia Gandara	UCLA	50	5.5	0	1.4	10	0	6.9	0	0.1	73.9	pcgandara
+68	Larry V. Hedges	Northwestern	50	1.5	6.2	1.7	0	8	6.1	0	0	73.5	
+69 (tie)	Helen (Sunny) F. Ladd	Duke	50	11.5	0	2.8	2	0	7.1	0	0.1	73.4	sunnyladd
+69 (tie)	James L. Moore III	Ohio State	35	2.5	0	0.1	5	0	25	0	5.8	73.4	DrJLMooreIII
+69 (tie)	Susan M. Dynarski	U. Michigan	33	0	0	2	9	7	10.8	5	6.6	73.4	dynarski
+72	Joshua Aronson	NYU	39	4	16.4	5.9	0	0	3.7	0	4.1	73.1	Nurtureofintell
+73 (tie)	Jal Mehta	Harvard	22	4.5	18.2	1.2	8	8	5.7	0	5.1	72.8	jal_mehta
+73 (tie)	Christopher Emdin	Columbia (TC)	18	7	19.5	0.1	4	8	8.8	0	7.4	72.8	chrisemdin
+73 (tie)	Jay P. Greene	U. Arkansas	44	4.5	0	0.3	1	10	7.5	0	5.5	72.8	jaypgreene
+76 (tie)	Dan Goldhaber	U. Washington	50	0.5	0	0.4	2	8	7.1	0	4.7	72.7	CEDR_US
+76 (tie)	Jesse Rothstein	UC Berkeley	31	0	0	2.7	9	0	25	5	0	72.7	
+78 (tie)	Stephen W. Raudenbush	U. Chicago	50	4	0.6	10	0	0	8	0	0	72.5	
+78 (tie)	Marilyn Cochran-Smith	Boston College	50	9.5	0	3.3	0	0	9.6	0	0	72.5	
+80 (tie)	H. Samy Alim	UCLA	32	6.5	12.7	1	2	4	8.4	0	5.6	72.1	HSamyAlim
+80 (tie)	Gary T. Henry	U. Delaware	40	7.5	15.8	4.4	0	2	2.2	0	0.1	72.1	gthenry4
+82	Jacob L. Vigdor	U. Washington	45	2	0	2.9	8	1	7.7	0	5.4	72	JakeVigdor
+83	Thomas S. Dee	Stanford	47	0	0	1.4	9	4	6.4	0	4	71.7	Thomas_S_Dee
+84	Estela Mara Bensimon	USC	33	8.5	13.2	0.4	4	2	4.8	0	5.5	71.4	ebensimon
+85 (tie)	Charles T. Clotfelter	Duke	50	8.5	0	1.4	3	4	3.8	0	0.1	70.9	CTClotfelter
+85 (tie)	Jeffrey R. Henig	Columbia (TC)	41	14.5	0	0.8	0	8	3.2	0	3.4	70.9	J_Henig
+87	Erica Frankenberg	Penn State	33	3	0	0.4	16	6	6.7	0	5.6	70.7	e_frankenberg
+88	Hirokazu Yoshikawa	NYU	50	5.5	0	5.1	1	0	6	0	2.9	70.6	HiroYoshikawaNY
+89	James P. Comer	Yale	39	20	0	1.8	6	0	3.7	0	0.1	70.5	drjamescomer
+90	Ken Zeichner	U. Washington	50	9	0	2.9	2	0	2.7	0	3.8	70.3	zeichnerkm
+91	David Figlio	Northwestern	48	0	0	0.7	2	10	9.4	0	0	70.2	
+92	James P. Spillane	Northwestern	50	8.5	0	2.4	0	0	5.3	0	4	70.1	jamespspillane
+93	Donna Ford	Ohio State	50	8.5	0.9	2	0	2	2.6	0	4	70	donnayford
+94	Thomas Kane	Harvard	50	2.5	0	1.3	2	6	8	0	0	69.8	
+95	Megan Franke	UCLA	40	2.5	15.9	0.5	0	0	3.5	0	5.4	67.8	meganlfranke
+96	Laura W. Perna	U. Penn	50	5	0	0.6	0	2	5.1	0	5	67.7	lauraperna1
+97	Deborah Loewenberg Ball	U. Michigan	50	1	0	0.4	6	0	4.9	0	5.3	67.6	deborah_ball
+98 (tie)	Adam Gamoran	U. Wisconsin-Madison	50	3	0	0.7	0	2	5.3	0	5.7	66.7	agamoran
+98 (tie)	Lynn Fuchs	Vanderbilt	50	1.5	8.2	3.3	1	0	2.6	0	0	66.7	
+100	Martin (Marty) West	Harvard	37	2	0	1.6	3	0	17.8	0	5.2	66.5	ProfMartyWest
+101	Kevin G. Welner	CU Boulder	30	8.5	0	2.3	6	0	19.5	0	0	66.3	
+102	Louis Gomez	UCLA	43	1.5	16.8	0.3	0	0	3.3	0	0	64.9	
+103	William Penuel	CU Boulder	50	2.5	4	0.5	0	0	1.9	0	5.5	64.4	bpenuel
+104 (tie)	Barbara Schneider	Michigan State	48	9.5	0	0.2	0	0	6.5	0	0	64.2	
+104 (tie)	Angela Valenzuela	UT Austin	22	4.5	9.7	10	0	4	9.2	0	4.8	64.2	vlnzl
+104 (tie)	Jeanne Brooks-Gunn	Columbia (TC)	50	6	0	3.7	0	0	4.5	0	0	64.2	
+107	Sylvia Hurtado	UCLA	50	3.5	0	1.2	1	0	7.6	0	0	63.3	
+108	Nonie K. Lesaux	Harvard	42	10	0	0.8	0	6	2	0	2.4	63.2	NonieLesaux
+109	Sara Lawrence-Lightfoot	Harvard	21	17	12.8	2.3	5	0	4.4	0	0	62.5	
+110	David S. Yeager	UT Austin	33	0.5	8.9	0.2	0	6	13.4	0	0	62	
+111 (tie)	Susanna Loeb	Brown	50	1.5	0	1	1	2	5.7	0	0.7	61.9	SusannaLoeb
+111 (tie)	Amy Stuart Wells	Columbia (TC)	42	8.5	0	0.5	1	4	5.8	0	0	61.9	
+113 (tie)	Aaron M. Pallas	Columbia (TC)	37	1.5	8	0	4	0	5.7	0	5.3	61.5	AMPallas
+113 (tie)	Jason A. Grissom	Vanderbilt	32	1	0	0.3	7	10	6.3	0	4.9	61.5	JasonAGrissom
+115	Bridget Terry Long	Harvard	39	0	0	0.6	5	2	9.7	0	5.1	61.4	bterrylong
+116	Douglas N. Harris	Tulane	35	2	0	0.3	5	3	10.5	0	5.1	60.9	douglasharris99
+117	Carola Suarez-Orozco	UCLA	45	3.5	4.5	1	0	0	6.5	0	0	60.5	
+118	Thomas Bailey	Columbia (TC)	18	8	6.7	0.3	0	2	25	0	0.1	60.1	BaileyCCRC
+119	Ellen Goldring	Vanderbilt	50	5.5	0	0.2	0	2	2.1	0	0	59.8	
+120	Okhee Lee	NYU	50	2.5	0	0.7	0	2	4.3	0	0.2	59.7	LeeOl16
+121	Kris D. Gutierrez	UC Berkeley	49	1	0	0.7	1	0	2	0	5.8	59.5	krisgu
+122 (tie)	Ernest Morrell	Notre Dame	35	12.5	0	1.6	1	0	3.8	0	5.3	59.2	ernestmorrell
+122 (tie)	Donald E. Heller	U. San Francisco	33	4.5	0	1.6	5	4	5.3	0	5.7	59.2	Donald_E_Heller
+124	Stephanie M. Jones	Harvard	37	2	0	3	1	10	5.9	0	0	59	
+125 (tie)	Ronald Ferguson	Harvard	28	3.5	13.1	4.6	6	0	3.4	0	0	58.6	
+125 (tie)	Margaret (Maggie) Grogan	Chapman	33	5	8.5	0.7	1	0	4	0	6.4	58.6	edlead
+125 (tie)	William Schmidt	Michigan State	45	7.5	0	0.2	1	2	2.7	0	0.2	58.6	bschmidt_msu
+125 (tie)	Camilla P. Benbow	Vanderbilt	50	1	0	0.2	0	0	7.4	0	0	58.6	
+129	David F. Labaree	Stanford	33	15.5	0	1.1	0	1	4.2	0	3.6	58.5	DLabaree
+130	Rucker Johnson	UC Berkeley	19	2	6.3	0.4	11	4	10.6	0	5	58.2	ProfRucker
+131	Howard C. Stevenson	U. Penn	36	4	0	0.4	4	0	8.9	0	4.8	58.1	DrHoward_RECAST
+132	Eva Baker	UCLA	47	6.5	0	0	1	0	3.2	0	0	57.8	
+133	Carolyn Heinrich	Vanderbilt	42	2	0	0.7	2	2	3.8	0	5.1	57.7	CJ_Heinrich
+134	Brian A. Jacob	U. Michigan	45	0	0	2.1	2	0	8.4	0	0.1	57.6	BrianJacobProf
+135	Roberto G. Gonzales	Harvard	24	4	9.5	2.4	2	0	9.4	0	5.9	57.2	RGGonzales1
+136	Roland G. Fryer Jr.	Harvard	41	0	0	1	8	0	6.7	0	0	56.6	
+137	Alfredo Artiles	Arizona State	50	4	0	0.1	0	0	1.9	0	0.1	56.2	artilesaj
+138	David K. Cohen	U. Michigan	43	7	0	1	0	2	2.1	0	0	55.1	
+139	Sandra E. Black	Columbia (Economics)	35	0	0	0.6	0	1	7	5	6.1	54.7	Econ_Sandy
+140	Anthony Jack	Harvard	6	2	19	0.1	7	5	9.1	0	5.8	53.9	tony_jack
+141	Josipa Roksa	U. Virginia	31	1.5	6.7	4.1	0	6	4.2	0	0	53.5	
+142	Charles M. Payne	Rutgers	18	8	11.5	10	2	2	1.9	0	0	53.4	
+143	Janelle Scott	UC Berkeley	25	1	4.2	0.4	3	0	14.2	0	5.5	53.3	janelletscott
+144 (tie)	Mica Pollock	UC San Diego	14	7	15.3	3.9	2	4	2	0	4.7	52.9	micapollock
+144 (tie)	Ivory Toldson	Howard	21	4	10.2	0.2	2	3	7.7	0	4.8	52.9	toldson
+146	Julian Vasquez Heilig	U. Kentucky	21	0	0	0.7	6	5	12.5	0	6.3	51.5	ProfessorJVH
+147	Cecilia Elena Rouse	Princeton	35	0.5	0	0.5	6	1	7.9	0	0	50.9	
+148	Morgan Polikoff	USC	23	0	0	0.2	7	7	7.3	0	6.3	50.8	mpolikoff
+149	Carol D. Lee	Northwestern	40	2.5	0	1.2	0	0	7	0	0	50.6	
+150 (tie)	Margaret Beale Spencer	U. Chicago	45	0.5	0	0.5	0	0	4.1	0	0	50.1	
+150 (tie)	Pam Grossman	U. Penn	34	1	0	0.6	1	2	8.5	0	2.9	50.1	PamPennGSE
+152	Peter Arcidiacono	Duke	31	0	0	4.4	4	2	7	0	0	48.4	
+153	Benjamin L. Castleman	U. Virginia	21	3.5	1.9	0.1	4	3	8.5	0	6.2	48.2	BenCastleman
+154	Heather C. Hill	Harvard	41	0.5	0	0.5	1	0	5	0	0	48.1	
+155	Michael A. Rebell	Columbia (TC)	24	8.5	0	0.4	5	2	7.8	0	0	47.7	
+156	Django Paris	U. Washington	16	3.5	13.3	1	0	4	3.2	0	6.6	47.6	django_paris
+157	David J. Deming	Harvard	20	0	0	0.4	10	2	9.5	0	5.1	47	ProfDavidDeming
+158	James Wyckoff	U. Virginia	39	0	0	0.8	1	2	3	0	0	45.8	
+159	Jack Schneider	U. Massachusetts Lowell	11	6	0	0.2	10	7	4.4	0	6	44.6	Edu_Historian
+160	Judith Scott-Clayton	Columbia (TC)	25	0	0	0.4	5	2	6	0	5.9	44.3	jscottclayton
+161	Joshua S. Goodman	Brandeis	18	0	0	0.1	8	6	5.3	0	6.7	44	JoshuaSGoodman
+162	Michael Podgursky	U. Missouri	38	2.5	0	0.5	1	0	1.2	0	0.1	43.2	podgurskym
+163	Prudence Carter	UC Berkeley	20	4.5	1.1	3	1	0	7.1	0	6.3	43	prudencelcarter
+164	Andrew Ho	Harvard	31	0	0	0	1	0	4.9	0	5.9	42.9	AndrewDeanHo
+165	Katharine O. Strunk	Michigan State	19	0	0	0	7	6	4.4	0	6.1	42.6	KatharineStrunk
+166	Tim Sass	Georgia State	39	0	0	0.2	2	0	1.1	0	0	42.3	
+167 (tie)	Diane Schanzenbach	Northwestern	31	0	0	0.5	0	2	3.1	0	5.5	42	dwschanz
+167 (tie)	Elaine Allensworth	U. Chicago	34	1	0	0.6	2	0	2.6	0	1.8	42	E_Allensworth
+169	Mark Berends	Notre Dame	34	2.5	0	0.3	0	0	2.6	0	2.4	41.8	berendma
+170	Jonah Rockoff	Columbia (Business)	32	0	0	1.1	2	2	4.5	0	0	41.6	
+171	Ron Zimmer	U. Kentucky	36	1	0	0.2	0	2	2.2	0	0	41.4	
+172 (tie)	Kirabo Jackson	Northwestern	23	0	0	0.4	1	6	4.1	0	6.5	41	KiraboJackson
+172 (tie)	Josh Cowen	Michigan State	22	0	0	0	4	4	5.5	0	5.5	41	joshcowenMSU
+174	Eric Bettinger	Stanford	28	0	0	1.6	4	0	7.2	0	0	40.8	
+175	Marcus A. Winters	Boston U.	29	2	0	0.1	0	0	4.6	0	4.9	40.6	MarcusAWinters
+176	Stacey Lee	U. Wisconsin-Madison	24	5.5	0	0.4	0	0	10.5	0	0	40.4	
+177	Jerlando Jackson	U. Wisconsin-Madison	25	2	0	0.1	5	1	1.8	0	4.8	39.7	DrJFLJackson
+178	Matt Kraft	Brown	24	0	0	0.2	2	4	3	0	5.6	38.8	MatthewAKraft
+179	Cory Koedel	U. Missouri	23	0.5	0	0.2	1	2	2.9	0	5.7	35.3	CoryKoedel
+180	Lori Patton Davis	Ohio State	26	0.5	0	0	0	0	1.6	0	5.4	33.5	LoriPattonDavis
+181	Sarah Reckhow	Michigan State	11	2.5	0	0.5	2	6	5.5	0	5.4	33	SReckhow
+182	Vanessa Siddle Walker	Emory	14	7	0	1	2	2	6.8	0	0	32.9	
+183	Maisha Winn	UC Davis	12	6	8.5	0.7	0	0	5.4	0	0	32.6	
+184	Michael Lovenheim	Cornell	24	1	0	0.2	0	2	4.3	0	0	31.5	
+185	Daphna Bassok	U. Virginia	16	1	0	0.2	0	2	6.5	0	5.1	30.8	daphnabassok
+186	Doug Webber	Temple	14	0	0	0	3	6	1.3	0	6.3	30.6	dougwebberecon
+187	Stella Flores	NYU	19	0.5	0	0.2	0	1	1.8	0	5.7	28.2	ProfessorFlores
+188	Vivian L. Gadsden	U. Penn	22	1.5	0	0.2	0	0	3.5	0	0	27.2	
+189	John P. Papay	Brown	22	0.5	0	0.1	2	0	2.2	0	0	26.8	
+190	Anna Egalite	North Carolina State	16	0	0	0	3	0	2	0	5.5	26.5	annaegalite
+191	Patrick McGuinn	Drew	18	3	0	0.6	1	2	0.8	0	0	25.4	
+192	Jennifer Jennings	Princeton	20	0	0	0.3	3	0	1.8	0	0	25.1	
+193	Michael Feuer	George Washington	14	5	0	0	0	0	5.8	0	0.1	24.9	mjfeuer
+194	Sarah Cohodes	Columbia (TC)	13	0	0	0.1	0	2	3.3	0	5.3	23.6	SarahCohodes
+195	Nora Gordon	Georgetown	13	0	0	0.6	0	2	2.4	0	5.3	23.3	NoraEGordon
+196	Jordan Matsudaira	Columbia (TC)	11	0	0	0.3	0	0	1.4	5	5.3	23	jdmatsudaira
+197	Eric Taylor	Harvard	13	0	0	0.3	0	0	8.6	0	0.1	22.1	eric_s_taylor
+198	Lesley Turner	Vanderbilt	14	0	0	0.4	0	3	3.3	0	0	20.6	
+199	David Steiner	Johns Hopkins	6	0	0	0.1	4	5	2.3	0	0	17.4	
+200	Ruth N. Lopez Turley	Rice	9	0	0	0	0	0	0.8	0	3.4	13.2	RuthLTurley
